@@ -1,0 +1,25 @@
+.boxContainer{
+  display: flex;
+  flex-direction: column;
+}
+.box{
+  color: #FFD43B;
+  background-color: #306998;
+  font-size: 30px;
+  border: 5px solid #FFD43B;
+  width: 200px;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.box_2{
+  align-self: center;
+}
+.box_3{
+  align-self: flex-end;
+}
+a{
+  text-decoration: none;
+  font-size: 60px;
+}

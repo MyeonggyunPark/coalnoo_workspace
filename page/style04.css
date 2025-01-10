@@ -1,0 +1,30 @@
+.box{
+  color: #FFD43B;
+  background-color: #306998;
+  font-size: 30px;
+  border: 5px solid #FFD43B;
+  width: 200px;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.box_1{
+  align-items: start;
+}
+.box_2{
+  position: absolute;
+  top: 100px;
+  left: 100px;
+  align-items: start;
+}
+.box_3{
+  position: absolute;
+  top: 100px;
+  left: 100px;
+  align-items: start;
+}
+a{
+  text-decoration: none;
+  font-size: 60px;
+}

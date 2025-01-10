@@ -1,0 +1,39 @@
+.boxContainer{
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+}
+.box_1{
+  color: #FFD43B;
+  background-color: #306998;
+  font-size: 30px;
+  border: 5px solid #FFD43B;
+  width: 600px;
+  height: 400px;
+}
+.box_2{
+  color: #306998;
+  background-color: #FFD43B;
+  border: 5px solid #306998;
+  font-size: 30px;
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+.box_3{
+  color: #306998;
+  background-color: #FFD43B;
+  border: 5px solid #306998;
+  font-size: 30px;
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+}
+a{
+  text-decoration: none;
+  font-size: 60px;
+}

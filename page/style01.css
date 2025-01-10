@@ -1,0 +1,30 @@
+.boxContainer{
+  display: flex;
+  justify-content: flex-end;
+}
+.box{
+  color: #FFD43B;
+  background-color: #306998;
+  font-size: 30px;
+  border: 5px solid #FFD43B;
+  width: 200px;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.box_1{
+  position: absolute;
+  left: 0;
+}
+.box_2{
+  position: relative;
+  right: 10px;
+}
+a{
+  text-decoration: none;
+  font-size: 60px;
+}
+
+
+
