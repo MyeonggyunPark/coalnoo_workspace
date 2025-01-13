@@ -49,8 +49,6 @@ body{
 }
 .mainImg{
   border-radius: 300px;
-  position: relative;
-  right: 50px;
 }
 .subImg{
   display: none;
@@ -79,11 +77,76 @@ footer .col:not(:last-child){
   background-color: #585858;
   color: #fff;
 }
-.footerIcon{
+.phoneFooterButton{
+  width: 150px;
+  height: 50px;
+  background-color: #585858;
+  color: #fff;
+}
+.footerIcon, .phonButton{
   display: flex;
   justify-content: center;
+}
+.phoneFooter{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .icon{
   font-size: 50px;
   margin-right: 20px;
+}
+.textBox{
+  border: 3px solid #304f7a;
+  border-top: none;
+  background-color: #304f7a;
+  width: 250px;
+  justify-self: center;
+}
+.textBox a{
+  text-decoration: none;
+  color: #fabc02;
+  font-weight: bold;
+  padding: 0 80px 0 80px;
+}
+.mainIcon{
+  background-color: #fff;
+  border: 3px solid #304f7a;
+  border-bottom: 3px solid #fabc02;
+
+}
+.mainIconContainer{
+  display: none;
+}
+.phoneFooterContainer{
+  display: none;
+}
+@media (max-width: 430px){
+  .mainImg{
+    width: 350px;
+    height: 300px;
+  }
+  .navLogo{
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+  }
+  .navbar-brand, .offcanvas-title{
+    font-size: 19px;
+  }
+  .pFirst{
+    display: none;
+  }
+  .mainCardContainer{
+    display: none;
+  }
+  .mainIconContainer{
+    display: block;
+  }
+  .footerContainer{
+    display: none;
+  }
+  .phoneFooterContainer{
+    display: block;
+  }
 }
