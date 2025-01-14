@@ -121,6 +121,12 @@ footer .col:not(:last-child){
 .phoneFooterContainer{
   display: none;
 }
+html, body{
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
 @media (max-width: 430px){
   .mainImg{
     width: 350px;
@@ -148,5 +154,6 @@ footer .col:not(:last-child){
   }
   .phoneFooterContainer{
     display: block;
+    max-width: 390px;
   }
 }
